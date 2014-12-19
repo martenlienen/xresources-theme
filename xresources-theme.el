@@ -24,6 +24,8 @@
 
 ;;; Commentary:
 
+;; Use the colors defined in your .Xresources as your emacs theme
+
 ;;; Code:
 
 (deftheme xresources "~/.Xresources as a theme")
