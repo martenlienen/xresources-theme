@@ -111,7 +111,7 @@
      ((t (:foreground ,green
                       :background ,background
                       :box (:line-width -1 :style released-button)))))
-   `(region ((t (:background ,background))
+   `(region ((t (:background ,blue))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,background))))
    `(trailing-whitespace ((t (:background ,red))))
@@ -135,6 +135,9 @@
    `(font-lock-warning-face ((t (:foreground ,yellow :weight bold))))
    `(c-annotation-face ((t (:inherit font-lock-constant-face))))
 
+   ;; which-function-mode
+   `(which-func ((t (:foreground ,blue))))
+
    ;; Third-party
 
    ;; ace-jump
@@ -153,7 +156,7 @@
    `(font-latex-math-face ((t (:foreground ,red))))
 
    ;; auto-complete
-   `(ac-candidate-face ((t (:background ,background :foreground ,background))))
+   `(ac-candidate-face ((t (:background ,foreground :foreground ,background))))
    `(ac-selection-face ((t (:background ,blue :foreground ,foreground))))
    `(popup-tip-face ((t (:background ,yellow :foreground ,background))))
    `(popup-scroll-bar-foreground-face ((t (:background ,blue))))
@@ -316,7 +319,7 @@
                       :underline nil
                       :weight bold
                       :box (:line-width -1 :style released-button)))))
-   `(helm-selection ((t (:background ,background :underline nil))))
+   `(helm-selection ((t (:background ,green :underline nil))))
    `(helm-selection-line ((t (:background ,background))))
    `(helm-visible-mark ((t (:foreground ,background :background ,yellow))))
    `(helm-candidate-number ((t (:foreground ,green :background ,background))))
