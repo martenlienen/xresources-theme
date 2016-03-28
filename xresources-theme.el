@@ -176,6 +176,11 @@
    `(clojure-test-error-face ((t (:foreground ,red :weight bold :underline t))))
    `(clojure-test-success-face ((t (:foreground ,green :weight bold :underline t))))
 
+   ;; cperl-mode
+   `(cperl-array-face ((t (:foreground ,yellow))))
+   `(cperl-hash-face ((t (:foreground ,cyan))))
+   `(cperl-nonoverridable-face ((t (:foreground ,light-magenta))))
+
    ;; diff
    `(diff-added ((t (:foreground ,green :background nil))
                  (t (:foreground ,green :background nil))))
