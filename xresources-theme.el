@@ -165,7 +165,7 @@
 
    ;; company-mode
    `(company-tooltip ((t (:foreground ,foreground :background ,background))))
-   `(company-tooltip-selection ((t (:foreground ,foreground :background ,background))))
+   `(company-tooltip-selection ((t (:foreground ,background :background ,foreground))))
    `(company-tooltip-mouse ((t (:background ,background))))
    `(company-tooltip-common ((t (:foreground ,green))))
    `(company-tooltip-common-selection ((t (:foreground ,green))))
