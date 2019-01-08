@@ -4,7 +4,7 @@
 
 ;; Author: Marten Lienen <marten.lienen@gmail.com>
 ;; Keywords: xresources, theme
-;; Version: 0.2.0
+;; Version: 1.0.0
 
 ;; This file is not part of GNU Emacs.
 

@@ -1,6 +1,6 @@
 # .Xresources-theme
 
-This theme reads its colors from your `~/.Xresources` file, so that you can
+This theme reads its colors from your `~/.Xresources` file so that you can
 easily keep your emacs theme in sync with your xterm and other X applications.
 
 ## In Action
@@ -30,6 +30,6 @@ emacs*background: #123456
 
 although this defies the whole purpose of this theme.
 
-Remember, that an X application gets it's resources at startup. So to make
-changes in your `~/.Xresources` apply to your emacs, you have to reload the
-resource configuration with `xrdb ~/.Xresources` and then restart your emacs.
+Remember that an X application gets its resources at startup. So to make changes
+in your `~/.Xresources` apply to your emacs, you have to reload the resource
+configuration with `xrdb ~/.Xresources` and then restart emacs.
