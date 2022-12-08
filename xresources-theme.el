@@ -273,6 +273,24 @@
    ;; ert
    `(ert-test-result-expected ((t (:foreground ,green :background ,background))))
    `(ert-test-result-unexpected ((t (:foreground ,red :background ,background))))
+   
+   ;; set ansi-colors
+   `(ansi-color-black ((t (:foreground ,black))))
+   `(ansi-color-white ((t (:foreground ,white))))
+   `(ansi-color-red ((t (:foreground ,red))))
+   `(ansi-color-yellow ((t (:foreground ,yellow))))
+   `(ansi-color-green ((t (:foregrounB ,green))))
+   `(ansi-color-cyan ((t (:foreground ,cyan))))
+   `(ansi-color-blue ((t (:foreground ,blue))))
+   `(ansi-color-magenta ((t (:foregrou0E ,magenta))))
+   `(ansi-color-bright-black ((t (:foreground ,gray))))
+   `(ansi-color-bright-white ((t (:foreground ,light-gray))))
+   `(ansi-color-bright-red ((t (:foreground ,light-red))))
+   `(ansi-color-bright-yellow ((t (:foreground ,light-yellow))))
+   `(ansi-color-bright-green ((t (:foreground ,light-green))))
+   `(ansi-color-bright-cyan ((t (:foreground ,light-cyan))))
+   `(ansi-color-bright-blue ((t (:foreground ,light-blue ))))
+   `(ansi-color-bright-magenta ((t (:foreground ,light-magenta))))
 
    ;; eshell
    `(eshell-prompt ((t (:foreground ,yellow :weight bold))))
