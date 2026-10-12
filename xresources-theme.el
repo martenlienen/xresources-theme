@@ -185,11 +185,11 @@
    `(cperl-nonoverridable-face ((t (:foreground ,light-magenta))))
 
    ;; diff
-   `(diff-added ((t (:foreground ,green :background nil))
-                 (t (:foreground ,green :background nil))))
+   `(diff-added ((t (:foreground ,green :background unspecified))
+                 (t (:foreground ,green :background unspecified))))
    `(diff-changed ((t (:foreground ,yellow))))
-   `(diff-removed ((t (:foreground ,red :background nil))
-                   (t (:foreground ,red :background nil))))
+   `(diff-removed ((t (:foreground ,red :background unspecified))
+                   (t (:foreground ,red :background unspecified))))
    `(diff-refine-added ((t (:inherit diff-added :weight bold))))
    `(diff-refine-change ((t (:inherit diff-changed :weight bold))))
    `(diff-refine-removed ((t (:inherit diff-removed :weight bold))))
